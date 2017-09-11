@@ -1,6 +1,3 @@
-**Music Community Lab is the non-profit entity that organizes the Monthly Music Hackathon. This page details our mission
-and values.**
-
 ## Mission
 
 Monthly Music Hackathon (MMH) is hardly your typical hackathon – we create a safe space for anyone to experiment with
