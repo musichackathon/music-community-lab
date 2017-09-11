@@ -1,4 +1,5 @@
-# Music Creativity Lab
+**Music Community Lab is the non-profit entity that organizes the Monthly Music Hackathon. This page details our mission
+and values.**
 
 ## Mission
 
