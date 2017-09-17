@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <g transform="translate(37.000000, 12.000000)">
+                <path d="M71.6141806,0.888598982 C64.9957437,0.888598982 65.0152527,14.1419334 71.6141806,14.1419334 L71.6141806,92.6291812 C49.4978552,130.670561 26.3166623,168.925931 2.07060168,207.395291 C-2.85249838,220.321269 7.64164774,231.313965 18.7934944,231.313965 L163.689351,231.313965 C174.841198,231.313965 185.335344,220.321269 180.412244,207.395291 C156.166183,168.925931 132.98499,130.670561 110.868665,92.6291812 L110.868665,14.1419334 C117.467593,14.1419334 117.487102,0.888598982 110.868665,0.888598982 L71.6141806,0.888598982 Z" id="Flask" fill="#9B9B9B"></path>
+                <path d="M157.123924,169.978516 C164.77436,182.428199 172.537133,194.900457 180.412244,207.395291 C185.335344,220.321269 174.841198,231.313965 163.689351,231.313965 L18.7934944,231.313965 C7.64164774,231.313965 -2.85249838,220.321269 2.07060168,207.395291 C9.94571283,194.900457 17.708486,182.428199 25.3589212,169.978516 L157.123925,169.978516 L157.123924,169.978516 Z" id="Liquid" fill="#BD10E0"></path>
+                <g id="Bubbles" transform="translate(38.000000, 157.000000)" stroke="#BD10E0" stroke-width="3" fill="#FFFFFF">
+                    <circle id="Bubble" cx="26.3662109" cy="12.9785155" r="12.5"></circle>
+                    <circle id="Bubble" cx="86.7949218" cy="19.2363281" r="8.81054681"></circle>
+                    <circle id="Bubble" cx="52.4821454" cy="43.2944334" r="7.84912103"></circle>
+                    <circle id="Bubble" cx="7.359375" cy="61.5029296" r="6.50683594"></circle>
+                    <circle id="Bubble" cx="108.129883" cy="65.7529296" r="4.25"></circle>
+                </g>
+                <g id="Note" transform="translate(51.000000, 111.000000)" stroke="#BD10E0" stroke-width="3">
+                    <circle id="Bubble" fill="#FFFFFF" cx="52.7241211" cy="9.33642566" r="8.85791016"></circle>
+                    <path d="M43.3662109,6.73193359 L1.36621094,40.7319336" id="Line" stroke-linecap="square"></path>
+                </g>
+                <g id="Note" transform="translate(93.909557, 42.843868) rotate(-224.000000) translate(-93.909557, -42.843868) translate(63.409557, 22.343868)" stroke="#BD10E0" stroke-width="3">
+                    <circle id="Bubble" fill="#FFFFFF" cx="51.7241211" cy="9.33642566" r="8.85791016"></circle>
+                    <path d="M42.3662109,6.73193359 L0.366210938,40.7319336" id="Line" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
