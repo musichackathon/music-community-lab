@@ -16,15 +16,23 @@
       <img src="/assets/Logo.svg" alt="The Music Community Lab logo featuring a bubbling chemistry flask of notes">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <a href="{{ site.donate_url }}" target="_blank" title="Donate at Fractured Atlas" class="btn">Donate</a>
+      <a href="{{ site.volunteer_url }}" target="_blank" title="Join the organizers group" class="btn">Volunteer</a>
+      <a href="{{ site.discuss_url }}" target="_blank" title="Join the discussion email group" class="btn">Discuss</a>
     </section>
 
     <section class="main-content">
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="http://monthlymusichackathon.org">Monthly Music Hackathon</span>
-        {% endif %}
+        <span class="site-footer-owner"><a href="http://monthlymusichackathon.org">Monthly Music Hackathon</a></span>
+        <span class="site-footer-credits">
+          <a href="{{ site.donate_url }}" target="_blank" title="Donate at Fractured Atlas">Donate</a>
+          <span> | </span>
+          <a href="{{ site.volunteer_url }}" target="_blank" title="Join the organizers group">Volunteer</a>
+          <span> | </span>
+          <a href="{{ site.discuss_url }}" target="_blank" title="Join the discussion email group">Discuss</a>
+        </span>
       </footer>
     </section>
 
