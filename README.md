@@ -13,7 +13,7 @@ MMH is a celebration of music and creativity. We adopt the concept of “hacking
 
 ### Promote Diversity across Backgrounds, Perspectives, and Abilities
 
-Music is a fundamentally human phenomenon, and MMH welcomes people and music of kinds. There are an infinite number of approaches to music, and a bewildering variety of them are represented in New York’s music scene. We believe it is both healthy and vital to establish common ground with people who have different experiences. What’s more, in addition to being good for humanity, this also helps foster a greater potential for innovation [see 
+Music is a fundamentally human phenomenon, and MMH welcomes people and music of all kinds. There are an infinite number of approaches to music, and a bewildering variety of them are represented in New York’s music scene. We believe it is both healthy and vital to establish common ground with people who have different experiences. What’s more, in addition to being good for humanity, this also helps foster a greater potential for innovation [see 
 [here](https://hbr.org/2016/11/why-diverse-teams-are-smarter),
 [here](https://hbr.org/2016/09/diverse-teams-feel-less-comfortable-and-thats-why-they-perform-better),
 or [here](https://hbr.org/2017/03/teams-solve-problems-faster-when-theyre-more-cognitively-diverse)].
