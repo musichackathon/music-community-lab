@@ -1,12 +1,20 @@
 theme: jekyll-theme-cayman
 title: Music Community Lab
 description: "Music Community Lab is the non-profit entity that organizes music technology events in New York City.<br>This page details our mission and values."
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Links
 donate_url: https://www.fracturedatlas.org/site/fiscal/profile?id=16959#giving_levels
 volunteer_url: https://goo.gl/forms/4WZ56lDDrSozGxWb2
 discuss_url: https://groups.google.com/forum/#!forum/mcl-discuss
 subscribe_url: http://eepurl.com/pNXJP
+eventbrite_url: "https://www.eventbrite.com/o/monthly-music-hackathon-nyc-2470452960"
+
+# Social info
+twitter_username: musichackathon
+github_username: musichackathon
+github_repo: mmh_jekyll
+facebook_username: musichackathon
 
 # Time settings
 timezone: America/New_York
@@ -14,3 +22,9 @@ date_format: "%b %-d, %Y"
 short_date_format: "%b %-d"
 time_format: "%I:%M %P"
 future: true
+
+
+collections:
+  events:
+    output: false # Change to true to output events pages.
+    permalink: /:collection/:year-:month-:day/
