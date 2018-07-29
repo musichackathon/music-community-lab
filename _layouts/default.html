@@ -3,39 +3,60 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
+    {% seo %}
+
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   </head>
   <body>
-    <section class="page-header">
-      <img src="/assets/Logo.svg" alt="The Music Community Lab logo featuring a bubbling chemistry flask of notes">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.subscribe_url }}" target="_blank" title="Subscribe to our email list" class="btn">Subscribe</a>
-      <a href="{{ site.donate_url }}" target="_blank" title="Donate at Fractured Atlas" class="btn">Donate</a>
-      <a href="{{ site.volunteer_url }}" target="_blank" title="Join the organizers group" class="btn">Volunteer</a>
-      <a href="{{ site.discuss_url }}" target="_blank" title="Join the discussion email group" class="btn">Discuss</a>
-    </section>
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-highlight">Music</span>
+        <span class="logo-highlight">Community</span>
+        <span class="logo-highlight">Lab</span>
+      </div>
+      <section class="links">
+        <ul class="site-links">
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+      </section>
+    </header>
 
     <section class="main-content">
       {{ content }}
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="http://monthlymusichackathon.org">Monthly Music Hackathon</a></span>
-        <span class="site-footer-credits">
-          <a href="{{ site.donate_url }}" target="_blank" title="Donate at Fractured Atlas">Donate</a>
-          <span> | </span>
-          <a href="{{ site.volunteer_url }}" target="_blank" title="Join the organizers group">Volunteer</a>
-          <span> | </span>
-          <a href="{{ site.discuss_url }}" target="_blank" title="Join the discussion email group">Discuss</a>
-        </span>
-      </footer>
     </section>
+
+    <footer class="site-footer">
+      <section class="pull-left">
+        <ul class="site-links">
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="far fa-envelope"></i></i></a></li>
+        </ul>
+      </section>
+      <section class="pull-right">
+        Monthly Music Hackathon is organized by Music Community Lab, Inc., a non-for-profit, volunteer-run organization.
+        <button class="primary-button">Donate</button>
+      </section>
+    </footer>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
