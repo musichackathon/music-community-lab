@@ -1,6 +1,8 @@
 ## Music Community Lab's Mission
 
-Music Community Lab’s mission is primarily to organize the Monthly Music Hackathon (MMH). MCL is an independent not-for-profit organization managed by volunteers. We are proud of our strong industry relationships and grateful for their generous support, but MCL operates wholly outside the scope of any other entity. Combined with creating a safe environment, this also means MCL events, such as MMH, are no place for intellectual property (IP) grabs, explicit advertising or recruiting.
+Music Community Lab’s mission is primarily to organize the Monthly Music Hackathon NYC (MMH) series. 
+
+Music Community Lab (MCL) is an independent not-for-profit organization managed by volunteers. We are proud of our strong industry relationships and grateful for their generous support, but MCL operates wholly outside the scope of any other entity. Combined with creating a safe environment, this also means MCL events, such as MMH, are no place for intellectual property (IP) grabs, explicit advertising or recruiting.
 
 ## Monthly Music Hackathon's Mission
 
