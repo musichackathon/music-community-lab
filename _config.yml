@@ -1,8 +1,16 @@
 theme: jekyll-theme-cayman
 title: Music Community Lab
-description: "Music Community Lab is the non-profit entity that organizes the Monthly Music Hackathon. This page details our mission and values."
+description: "Music Community Lab is the non-profit entity that organizes music technology events in New York City.<br>This page details our mission and values."
 
+# Links
 donate_url: https://www.fracturedatlas.org/site/fiscal/profile?id=16959#giving_levels
 volunteer_url: https://goo.gl/forms/4WZ56lDDrSozGxWb2
 discuss_url: https://groups.google.com/forum/#!forum/mcl-discuss
 subscribe_url: http://eepurl.com/pNXJP
+
+# Time settings
+timezone: America/New_York
+date_format: "%b %-d, %Y"
+short_date_format: "%b %-d"
+time_format: "%I:%M %P"
+future: true
