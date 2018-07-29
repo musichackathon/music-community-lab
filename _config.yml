@@ -11,10 +11,10 @@ subscribe_url: http://eepurl.com/pNXJP
 eventbrite_url: "https://www.eventbrite.com/o/monthly-music-hackathon-nyc-2470452960"
 
 # Social info
-twitter_username: musichackathon
-github_username: musichackathon
-github_repo: mmh_jekyll
+email: contact@musiccommunitylab.org
 facebook_username: musichackathon
+instagram: musichackathon
+twitter_username: musichackathon
 
 # Time settings
 timezone: America/New_York
