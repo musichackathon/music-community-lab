@@ -2,6 +2,8 @@
 layout: index
 ---
 
+![Music Community Lab](/assets/splash.jpg){:class="splash-image"}
+
 ### Music Community Lab’s Mission
 
 Music Community Lab exists to organize events for music and technology: workshops, talks, creative and social events, and all day ‘hackathons’ such as Monthly Music Hackathon.
