@@ -1,0 +1,106 @@
+.pull-left { float: left; }
+.pull-right { float: right; }
+.bold { font-weight: 600; }
+
+.primary-button {
+  padding: 4px 12px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: $black;
+  background: $yellow;
+  font-variant: all-small-caps;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  max-width: 100px;
+  padding: 8px;
+  background: $yellow;
+  
+  .logo-highlight {
+    margin: 1px;
+  }
+}
+
+.logo-highlight {
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 4px;
+  line-height: 1.2em;
+  font-variant: all-small-caps;
+  background: $black;
+  color: $yellow;
+  font-weight: 600;
+}
+
+.site-header,
+.site-footer {
+  background: $black;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.site-header {
+  .links {
+    float: right;
+  }
+}
+
+.site-footer {
+  margin-top: 0 !important; // TODO: remove when we have more sections
+
+  .site-links {
+    li {
+      display: block;
+      margin: 0;
+    }
+  }
+
+  .social-links {
+    display: block;
+    margin-top: 16px;
+  }
+
+  .footer-description {
+    max-width: 400px;
+    font-size: 14px;
+  }
+
+  button {
+    margin-top: 12px;
+    width: 100%;
+  }
+}
+
+.site-links,
+.social-links {
+  list-style: none;
+  display: inline-block;
+  margin: 0 8px;
+  -webkit-padding-start: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 4px;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.site-links {
+  font-size: 20px;
+  font-variant: all-small-caps;
+
+  li {
+    margin: 0 12px;
+  }
+}
